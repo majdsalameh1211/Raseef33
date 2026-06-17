@@ -1,0 +1,14 @@
+/* ── RASEEF 33 — Design Tokens ── */
+
+:root {
+  --bg:         #090907;
+  --surface:    #111110;
+  --ivory:      #EDE8DF;
+  --ivory-60:   rgba(237,232,223,0.6);
+  --ivory-40:   rgba(237,232,223,0.4);
+  --ivory-15:   rgba(237,232,223,0.08);
+  --gold:       #B89040;
+  --gold-dim:   rgba(184,144,64,0.22);
+  --gold-hover: rgba(184,144,64,0.12);
+  --nav-h:      70px;
+}
