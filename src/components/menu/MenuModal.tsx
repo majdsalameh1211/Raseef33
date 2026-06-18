@@ -123,14 +123,14 @@ export default function MenuModal({ item, sectionLabel, onClose }: MenuModalProp
         .modal-backdrop {
           position: fixed;
           inset: 0;
-          z-index: 200;
+          z-index: 1000;
           display: flex;
           align-items: center;
           justify-content: center;
           background: rgba(6, 4, 2, 0);
           transition: background 0.4s ease;
           pointer-events: none;
-          padding: 24px 16px;
+          padding: calc(var(--nav-h, 70px) + 16px) 16px 24px;
         }
 
         .modal-backdrop--open {
