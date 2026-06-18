@@ -1,5 +1,6 @@
 import About from "@/components/about/About";
 import { Hero } from "@/components/hero";
+import Menu from '@/components/menu'
 
 
 
@@ -10,27 +11,7 @@ export default function Home() {
 
       <About />
 
-      <section
-        id="menu"
-        style={{
-          height: "100vh",
-          background: "#090907",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <span style={{
-          fontFamily: "'Cormorant Garamond', serif",
-          fontSize: 32,
-          fontWeight: 300,
-          letterSpacing: "0.2em",
-          color: "rgba(237,232,223,0.1)",
-          textTransform: "uppercase",
-        }}>
-          Menus
-        </span>
-      </section>
+      <Menu />
 
       <section
         id="gallery"

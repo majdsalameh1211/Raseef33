@@ -1,0 +1,184 @@
+{
+  "category": "drinks",
+  "sections": [
+    {
+      "id": "cocktails",
+      "label_he": "קוקטיילים",
+      "label_en": "Cocktails",
+      "items": [
+        {
+          "id": "d-c-01",
+          "name_he": "נגרוני",
+          "name_en": "Negroni",
+          "description_en": "Born in Florence, 1919. Equal parts gin, Campari, and sweet vermouth — stirred over ice, never shaken. Crowned with a twist of orange.",
+          "ingredients": ["Gordon's Gin", "Campari", "Martini Rosso", "Orange peel"],
+          "price": 55,
+          "image": "https://images.unsplash.com/photo-1609951651556-5334e2706168?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "d-c-02",
+          "name_he": "מרגריטה קלאסיק",
+          "name_en": "Margarita Classic",
+          "description_en": "Blanco tequila, fresh-squeezed lime, Cointreau, agave. Salt rim. No shortcuts, no sour mix. Cold and honest.",
+          "ingredients": ["Blanco tequila", "Fresh lime", "Cointreau", "Agave", "Salt"],
+          "price": 45,
+          "image": "https://images.unsplash.com/photo-1622250583562-f53de6e65af9?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "d-c-03",
+          "name_he": "ג'ין בזיל סמאש",
+          "name_en": "Gin Basil Smash",
+          "description_en": "Hendrick's gin, fresh basil leaves muddled to order, lemon juice, simple syrup. Vivid green, aromatic, sharp.",
+          "ingredients": ["Hendrick's Gin", "Fresh basil", "Lemon juice", "Simple syrup"],
+          "price": 52,
+          "image": "https://images.unsplash.com/photo-1536935338788-846bb9981813?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "d-c-04",
+          "name_he": "ראסיף סאוור",
+          "name_en": "Raseef Sour",
+          "description_en": "Our signature. Arak, lemon, honey, fresh mint, egg white. Shaken hard until the foam rises. A Haifa evening in a glass.",
+          "ingredients": ["Arak", "Lemon", "Honey", "Fresh mint", "Egg white"],
+          "price": 58,
+          "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "d-c-05",
+          "name_he": "עישון מרוקאי",
+          "name_en": "Moroccan Smoke",
+          "description_en": "Mezcal, rose water, cardamom bitters, smoked salt rim, dried rosebuds. Smoky, floral, unexpected.",
+          "ingredients": ["Mezcal", "Rose water", "Cardamom bitters", "Smoked salt", "Dried rose"],
+          "price": 62,
+          "image": "https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "d-c-06",
+          "name_he": "נמל חיפה",
+          "name_en": "Haifa Port",
+          "description_en": "Dark rum, tamarind syrup, fresh ginger, lime, soda. Named for the view from our bar — long, layered, and a little wild.",
+          "ingredients": ["Dark rum", "Tamarind", "Fresh ginger", "Lime", "Soda"],
+          "price": 54,
+          "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=800&q=80&fit=crop&auto=format"
+        }
+      ]
+    },
+    {
+      "id": "red-wine",
+      "label_he": "יין אדום",
+      "label_en": "Red Wine",
+      "items": [
+        {
+          "id": "d-rw-01",
+          "name_he": "יקב גולן — קברנה",
+          "name_en": "Golan Heights — Cabernet",
+          "description_en": "Full-bodied Cabernet Sauvignon from the Golan plateau. Dark fruit, cedar, and long finish. Pairs beautifully with the lamb skewer.",
+          "ingredients": ["Cabernet Sauvignon", "Golan Heights", "2021"],
+          "price": 52,
+          "price_bottle": 210,
+          "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "d-rw-02",
+          "name_he": "כרמל — שיראז",
+          "name_en": "Carmel Winery — Shiraz",
+          "description_en": "Spiced Shiraz from the Carmel mountain range. Pepper, black cherry, earthy finish. A natural match for charcoal grills.",
+          "ingredients": ["Shiraz", "Carmel Mountains", "2020"],
+          "price": 48,
+          "price_bottle": 190,
+          "image": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "d-rw-03",
+          "name_he": "דלתון — מרלו",
+          "name_en": "Dalton Estate — Merlot",
+          "description_en": "Approachable, smooth Merlot from Upper Galilee. Ripe plum, soft tannins, finish with a hint of chocolate.",
+          "ingredients": ["Merlot", "Upper Galilee", "2022"],
+          "price": 44,
+          "price_bottle": 175,
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80&fit=crop&auto=format"
+        }
+      ]
+    },
+    {
+      "id": "white-wine",
+      "label_he": "יין לבן",
+      "label_en": "White Wine",
+      "items": [
+        {
+          "id": "d-ww-01",
+          "name_he": "יקב גליל — שרדונה",
+          "name_en": "Galil Mountain — Chardonnay",
+          "description_en": "Crisp, mineral-driven Chardonnay. Stone fruit, citrus blossom, clean finish. Perfect with the fish or lighter starters.",
+          "ingredients": ["Chardonnay", "Galil Mountain", "2023"],
+          "price": 46,
+          "price_bottle": 185,
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "d-ww-02",
+          "name_he": "רמת הגולן — ויוניה",
+          "name_en": "Golan Heights — Viognier",
+          "description_en": "Aromatic and round. Apricot, jasmine, white peach. The kind of wine that makes warm evenings last.",
+          "ingredients": ["Viognier", "Golan Heights", "2022"],
+          "price": 50,
+          "price_bottle": 198,
+          "image": "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=800&q=80&fit=crop&auto=format"
+        }
+      ]
+    },
+    {
+      "id": "rose-wine",
+      "label_he": "יין רוזה",
+      "label_en": "Rosé",
+      "items": [
+        {
+          "id": "d-ro-01",
+          "name_he": "בנימינה — רוזה",
+          "name_en": "Binyamina — Rosé",
+          "description_en": "Dry rosé, pale salmon color. Strawberry, watermelon, herbal notes. The house pour all summer long.",
+          "ingredients": ["Grenache", "Carignan", "Binyamina", "2023"],
+          "price": 42,
+          "price_bottle": 168,
+          "image": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "d-ro-02",
+          "name_he": "כרמל — רוזה ג'קארה",
+          "name_en": "Carmel — Jokari Rosé",
+          "description_en": "Light and lively. Raspberry, lime zest, barely-there sweetness. Pairs with everything on the starters menu.",
+          "ingredients": ["Grenache Noir", "Carmel", "2023"],
+          "price": 44,
+          "price_bottle": 175,
+          "image": "https://images.unsplash.com/photo-1548247416-ec66f4900b2e?w=800&q=80&fit=crop&auto=format"
+        }
+      ]
+    },
+    {
+      "id": "sparkling",
+      "label_he": "מבעבע",
+      "label_en": "Sparkling",
+      "items": [
+        {
+          "id": "d-sp-01",
+          "name_he": "יקב רמות נפתלי — בועות",
+          "name_en": "Ramot Naftaly — Brut",
+          "description_en": "Israeli méthode traditionnelle sparkling. Fine persistent bubbles, green apple, brioche, mineral finish. An opening for any evening.",
+          "ingredients": ["Chardonnay", "Pinot Noir", "Ramot Naftaly", "NV"],
+          "price": 58,
+          "price_bottle": 230,
+          "image": "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "d-sp-02",
+          "name_he": "פרוסקו — בטל",
+          "name_en": "Prosecco — Bottle",
+          "description_en": "Light, frothy, celebratory. Pear and white flower. The right choice when the table orders the whole menu.",
+          "ingredients": ["Glera", "Veneto", "Italy", "NV"],
+          "price": 185,
+          "price_bottle": 185,
+          "image": "https://images.unsplash.com/photo-1583916876741-aaaf31a8e3cd?w=800&q=80&fit=crop&auto=format"
+        }
+      ]
+    }
+  ]
+}

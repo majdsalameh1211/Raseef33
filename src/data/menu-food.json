@@ -1,0 +1,177 @@
+{
+  "category": "food",
+  "sections": [
+    {
+      "id": "petihim",
+      "label_he": "פתיחים",
+      "label_en": "Starters",
+      "items": [
+        {
+          "id": "f-p-01",
+          "name_he": "חומוס מסבחה",
+          "name_en": "Hummus Masabacha",
+          "description_en": "Warm whole chickpeas loosened with extra tahini, cold-pressed olive oil, house-pickled chilies. Served with freshly baked taboun bread.",
+          "ingredients": ["Chickpeas", "Tahini", "Olive oil", "Za'atar", "Pickled chili", "Taboun"],
+          "price": 38,
+          "image": "https://images.unsplash.com/photo-1637949385162-e416fb15b2ce?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "f-p-02",
+          "name_he": "לבנה ופיתה טבון",
+          "name_en": "Labneh & Taboun Flatbread",
+          "description_en": "House-made labneh strained overnight, wild herbs, lemon zest, good olive oil. The bread comes out of the oven every twenty minutes.",
+          "ingredients": ["Labneh", "Wild herbs", "Lemon", "Olive oil", "Taboun bread"],
+          "price": 42,
+          "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "f-p-03",
+          "name_he": "חצילים שרופים",
+          "name_en": "Charred Eggplant",
+          "description_en": "Burned directly over flame until collapsed, dressed with pomegranate molasses, toasted pine nuts, and fresh herbs.",
+          "ingredients": ["Eggplant", "Pomegranate molasses", "Pine nuts", "Fresh herbs", "Tahini"],
+          "price": 46,
+          "image": "https://images.unsplash.com/photo-1572453800999-e8d2d1589b7c?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "f-p-04",
+          "name_he": "קיבה נייה",
+          "name_en": "Kibbe Naye",
+          "description_en": "Raw lamb, fine bulgur, wild spices ground in-house, caramelized onion, mint oil. A Galilean classic, served cold.",
+          "ingredients": ["Lamb", "Bulgur", "Cumin", "Cinnamon", "Onion", "Mint"],
+          "price": 54,
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "f-p-05",
+          "name_he": "פול עם שמן זית",
+          "name_en": "Foul with Olive Oil",
+          "description_en": "Slow-cooked fava beans, crushed garlic, lemon, cumin, and a generous pour of Galilean olive oil. Best mopped with taboun.",
+          "ingredients": ["Fava beans", "Garlic", "Lemon", "Cumin", "Olive oil"],
+          "price": 36,
+          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80&fit=crop&auto=format"
+        }
+      ]
+    },
+    {
+      "id": "rishonot",
+      "label_he": "ראשונות",
+      "label_en": "First Courses",
+      "items": [
+        {
+          "id": "f-r-01",
+          "name_he": "תמנון בגריל",
+          "name_en": "Grilled Octopus",
+          "description_en": "Slow-braised then charred on the grill, harissa butter, roasted lemon, pickled celery, fresh herbs.",
+          "ingredients": ["Octopus", "Harissa", "Lemon", "Celery", "Butter", "Herbs"],
+          "price": 72,
+          "image": "https://images.unsplash.com/photo-1623653387945-2fd25214f8fc?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "f-r-02",
+          "name_he": "סלט ברבוניה",
+          "name_en": "Red Mullet Salad",
+          "description_en": "Pan-fried red mullet from Haifa bay, bitter greens, pickled green olives, preserved lemon dressing.",
+          "ingredients": ["Red mullet", "Bitter greens", "Green olives", "Preserved lemon"],
+          "price": 68,
+          "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "f-r-03",
+          "name_he": "כבד עוף של פיראס",
+          "name_en": "Firas's Chicken Liver",
+          "description_en": "The dish that started everything. Sautéed with arak, fresh figs, and caramelized shallots. Served on grilled bread.",
+          "ingredients": ["Chicken liver", "Arak", "Fresh figs", "Shallots", "Bread"],
+          "price": 58,
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "f-r-04",
+          "name_he": "בורק תרד וגבינה",
+          "name_en": "Spinach & Cheese Burek",
+          "description_en": "Thin hand-rolled pastry, wilted spinach, aged Galilee goat cheese, sumac, fried egg on top.",
+          "ingredients": ["Pastry", "Spinach", "Goat cheese", "Sumac", "Egg"],
+          "price": 52,
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80&fit=crop&auto=format"
+        }
+      ]
+    },
+    {
+      "id": "beinayim",
+      "label_he": "ביניים",
+      "label_en": "Between Courses",
+      "items": [
+        {
+          "id": "f-b-01",
+          "name_he": "שיפוד ירקות מהגריל",
+          "name_en": "Charcoal Vegetable Skewer",
+          "description_en": "Seasonal market vegetables from Wadi Nisnas, grilled over charcoal, dressed with herbs and warm spices.",
+          "ingredients": ["Seasonal vegetables", "Charcoal", "Herbs", "Cumin", "Olive oil"],
+          "price": 48,
+          "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "f-b-02",
+          "name_he": "כדורי פלאפל עם טחינה",
+          "name_en": "Falafel with Tahini",
+          "description_en": "Hand-formed from soaked (never canned) chickpeas, fried to order, tahini with green herbs, pickled turnip.",
+          "ingredients": ["Chickpeas", "Herbs", "Spices", "Tahini", "Pickled turnip"],
+          "price": 44,
+          "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb2?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "f-b-03",
+          "name_he": "פיצה לאחם ביג'ין",
+          "name_en": "Lahmajoun",
+          "description_en": "Thin crisp dough, spiced minced lamb, tomato, parsley. Rolled and eaten with lemon — the Galilean fast food.",
+          "ingredients": ["Dough", "Minced lamb", "Tomato", "Parsley", "Lemon"],
+          "price": 46,
+          "image": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=800&q=80&fit=crop&auto=format"
+        }
+      ]
+    },
+    {
+      "id": "ikaryot",
+      "label_he": "עיקריות",
+      "label_en": "Main Courses",
+      "items": [
+        {
+          "id": "f-e-01",
+          "name_he": "שיפוד כבש של פיראס",
+          "name_en": "Firas's Lamb Skewer",
+          "description_en": "Shoulder of Galilee lamb, ground with parsley and seven spices, grilled over charcoal, served with roasted tomato and tahini.",
+          "ingredients": ["Lamb shoulder", "Parsley", "Seven spices", "Tomato", "Tahini"],
+          "price": 98,
+          "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "f-e-02",
+          "name_he": "דג ים מהנמל",
+          "name_en": "Whole Fish from the Port",
+          "description_en": "Daily catch from Haifa port, grilled whole, chermoula, roasted lemon, herbs. Fish changes with what arrived that morning.",
+          "ingredients": ["Daily fish", "Chermoula", "Lemon", "Herbs", "Olive oil"],
+          "price": 118,
+          "image": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "f-e-03",
+          "name_he": "חזה אווז עם רימון",
+          "name_en": "Duck Breast & Pomegranate",
+          "description_en": "Magret duck, pomegranate reduction, roasted root vegetables, crispy duck fat potatoes.",
+          "ingredients": ["Duck breast", "Pomegranate", "Root vegetables", "Duck fat", "Potatoes"],
+          "price": 112,
+          "image": "https://images.unsplash.com/photo-1518492104633-130d0cc84637?w=800&q=80&fit=crop&auto=format"
+        },
+        {
+          "id": "f-e-04",
+          "name_he": "פרגית בתנור עצים",
+          "name_en": "Wood-Fired Spring Chicken",
+          "description_en": "Half spring chicken, marinated 24 hours in yogurt and Galilean spices, roasted in the wood oven. Served with freekeh and herb salad.",
+          "ingredients": ["Spring chicken", "Yogurt", "Galilean spices", "Freekeh", "Herbs"],
+          "price": 88,
+          "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c8?w=800&q=80&fit=crop&auto=format"
+        }
+      ]
+    }
+  ]
+}

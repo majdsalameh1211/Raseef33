@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Design Tokens ── */
+:root {
+  --bg:        #090907;
+  --surface:   #111110;
+  --ivory:     #EDE8DF;
+  --ivory-60:  rgba(237,232,223,0.6);
+  --ivory-40:  rgba(237,232,223,0.4);
+  --ivory-15:  rgba(237,232,223,0.08);
+  --gold:      #B89040;
+  --gold-dim:  rgba(184,144,64,0.22);
+  --gold-hover:rgba(184,144,64,0.12);
+  --nav-h:     70px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ivory);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--gold);
+  color: var(--bg);
+}
+
+/* scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--gold-dim); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold); }
