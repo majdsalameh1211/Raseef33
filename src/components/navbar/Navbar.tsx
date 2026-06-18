@@ -4,20 +4,20 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import LangPicker from "./LangPicker";
 import MenuButton from "./MenuButton";
-import MobileDropdown from "./MobileDropdown";
+import SidebarMenu from "./SidebarMenu";
 
 const DESKTOP_LINKS = [
-  { label: "Home",    href: "#home",    id: "home"    },
-  { label: "About",   href: "#about",   id: "about"   },
-  { label: "Menus",   href: "#menu",    id: "menu"    },
+  { label: "Home", href: "#home", id: "home" },
+  { label: "About", href: "#about", id: "about" },
+  { label: "Menus", href: "#menu", id: "menu" },
   { label: "Gallery", href: "#gallery", id: "gallery" },
   { label: "Contact", href: "#contact", id: "contact" },
 ];
 
 export default function Navbar() {
-  const [scrolled,      setScrolled]      = useState(false);
-  const [menuOpen,      setMenuOpen]      = useState(false);
-  const [isMobile,      setIsMobile]      = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
 
   useEffect(() => {
@@ -51,10 +51,15 @@ export default function Navbar() {
   }, []);
 
   useEffect(() => {
-    if (!isMobile) {
+    if (isMobile) {
       document.body.style.overflow = menuOpen ? "hidden" : "";
+    } else {
+      document.body.style.overflow = "";
     }
-    return () => { document.body.style.overflow = ""; };
+
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [menuOpen, isMobile]);
 
   useEffect(() => {
@@ -66,7 +71,7 @@ export default function Navbar() {
   }, []);
 
   function toggleMenu() { setMenuOpen(v => !v); }
-  function closeMenu()  { setMenuOpen(false);   }
+  function closeMenu() { setMenuOpen(false); }
 
   return (
     <>
@@ -164,9 +169,9 @@ export default function Navbar() {
                     (e.currentTarget.style.color = "#B89040")
                   }
                   onMouseLeave={e =>
-                    (e.currentTarget.style.color = isActive
-                      ? "#B89040"
-                      : "rgba(232,226,215,0.5)")
+                  (e.currentTarget.style.color = isActive
+                    ? "#B89040"
+                    : "rgba(232,226,215,0.5)")
                   }
                 >
                   {link.label}
@@ -194,10 +199,9 @@ export default function Navbar() {
       </header>
 
       {isMobile && (
-        <MobileDropdown
+        <SidebarMenu
           isOpen={menuOpen}
           onClose={closeMenu}
-          activeSection={activeSection}
         />
       )}
     </>

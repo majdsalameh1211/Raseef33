@@ -243,30 +243,56 @@ export default function Hero() {
           ))}
         </div>
 
-
+{/* Animated chevron — mobile only */}
+        <div id="scroll-arrow">
+          <button
+            onClick={() => {
+              document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
+            }}
+            aria-label="Scroll to next section"
+            style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              display: "flex",
+              flexDirection: "column" as const,
+              alignItems: "center",
+              gap: 3,
+              animation: "arrowBounce 1.6s ease-in-out infinite",
+              padding: 8,
+            }}
+          >
+            <svg width="32" height="18" viewBox="0 0 32 18" fill="none"
+              stroke="rgba(184,144,64,0.9)" strokeWidth="1.4"
+              strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="1,1 16,16 31,1" />
+            </svg>
+            <svg width="32" height="18" viewBox="0 0 32 18" fill="none"
+              stroke="rgba(184,144,64,0.4)" strokeWidth="1.4"
+              strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="1,1 16,16 31,1" />
+            </svg>
+          </button>
+        </div>
 
       </div>{/* ← closes bottom center div */}
 
       <style>{`
-  @media (max-width: 640px) {
-    #home a {
-      width: 100%;
-      max-width: 280px;
-    }
-
-    #home a::before,
-    #home a::after {
-      content: none !important;
-      display: none !important;
-    }
-  }
-
-  #home a::before,
-  #home a::after {
-    content: none !important;
-    display: none !important;
-  }
-`}</style>
+        @keyframes arrowBounce {
+          0%, 100% { transform: translateY(0); opacity: 1; }
+          50%       { transform: translateY(5px); opacity: 0.5; }
+        }
+        #scroll-arrow { display: flex; }
+        @media (min-width: 768px) {
+          #scroll-arrow { display: none; }
+        }
+        @media (max-width: 640px) {
+          #home a {
+            width: 100%;
+            max-width: 280px;
+          }
+        }
+      `}</style>
 
     </section>
   );
